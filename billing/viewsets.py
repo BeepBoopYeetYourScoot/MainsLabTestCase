@@ -3,7 +3,6 @@ from rest_framework.decorators import parser_classes
 from rest_framework.parsers import JSONParser, FileUploadParser
 from rest_framework.response import Response
 from rest_framework import status
-from django_filters.rest_framework import DjangoFilterBackend
 from .models import Bill
 from .serializers import BillSerializer
 import pandas as pd
